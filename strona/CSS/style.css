@@ -1,0 +1,316 @@
+main {
+    background: rgb(138, 139, 136);
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: large;
+
+}
+
+header {
+    margin-bottom: 25px;
+}
+
+.container {
+    display: flex;
+}
+
+body {
+    background: rgb(138, 139, 136);
+    color: #8d3b04;
+}
+
+h1,
+h2,
+footer {
+    background: #d76213;
+    color: #f6f6f8;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 10px 7px 5px rgb(70, 68, 68);
+
+}
+
+#nav {
+    text-align: left;
+    overflow: hidden;
+    font-family: calibri, tahoma;
+}
+
+ul#nav li {
+
+    list-style-type: none;
+    display: inline-flex;
+    flex-direction: row;
+    background: rgb(138, 139, 136);
+    margin-left: 3px;
+    border-radius: 5px;
+
+}
+
+ul#nav li:hover {
+    border: 1px solid #ebbfa2;
+    list-style-type: none;
+    display: inline-flex;
+    background: #ebbfa2;
+    margin-left: 3px;
+    border-radius: 5px;
+
+}
+
+ul#nav li a {
+    display: block;
+    padding: 4pt;
+    text-decoration: none;
+    border-radius: 5px;
+
+}
+
+ul#nav li li a {
+    width: 160px;
+
+}
+
+ul#nav li li:hover {
+    background: #ebbfa2;
+    width: 160px;
+
+}
+
+ul#nav li ul {
+    overflow: hidden;
+    display: none;
+
+}
+
+ul#nav li:hover ul {
+    position: absolute;
+
+    background: #ebbfa2;
+    padding: 0;
+    display: block;
+    width: 160px;
+    margin-top: 27px;
+    border-radius: 5px;
+
+}
+
+nav {
+    background-color: rgb(138, 139, 136);
+    display: block;
+    width: 100%;
+    padding: 0%;
+    margin: 2px;
+
+
+
+}
+
+nav li {
+
+    margin: 0px;
+    padding: 0;
+    list-style: none;
+    padding-right: 3px;
+    font-family: "Lucida Grande", sans-serif;
+    font-size: 85%;
+}
+
+nav a {
+
+    float: left;
+    display: block;
+    margin: 0;
+    padding: 4px 8px;
+
+    text-decoration: none;
+    border-bottom: none;
+    background: #d76213;
+
+}
+
+nav a:hover {
+    background: #d76213;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#tresc {
+    background-color: #ebbfa2;
+    
+    width: 75%;
+    padding: 1%;
+    border-radius: 5px;
+
+    margin-bottom: 25px;
+}
+
+aside {
+    
+    width: 20%;
+    padding: 1%;
+    box-sizing: border-box;
+}
+
+footer {
+    clear: both;
+    width: 100%;
+    padding: 5px 0 5px 0;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.box {
+    background: #d76213;
+    color: #dbffff;
+    padding: 5px;
+    margin: 5px;
+    font-size: 90%;
+    border-radius: 15px;
+}
+
+.box a {
+    color: #ffffb0
+}
+
+h1,
+h2,
+h3 {
+    margin: 0;
+    padding: 0;
+}
+
+#w3 {
+    height: 47px;
+    width: 72px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    float: left;
+    margin: 2px;
+}
+
+#galeria {
+    margin-left: auto;
+    margin-top: 25px;
+}
+
+@media screen and (max-width: 800px) {
+    aside {
+
+        width: 100%;
+        display: inline-flex;
+        flex-direction: row;
+    }
+
+    .box {
+        width: 44%;
+    }
+
+    #tresc {
+        background-color: #ebbfa2;
+        display: inline-block;
+        width: 95%;
+        margin-left: auto;
+        padding: 1%;
+        border-radius: 5px;
+
+        margin-bottom: 25px;
+    }
+
+    .container {
+        display: block;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h2,
+    h3 {
+        font-size: 20px;
+    }
+
+    nav {
+        width: 95%;
+    }
+
+    nav li {
+        font-size: 110%;
+        padding-right: 1px;
+        display: block;
+
+        text-align: center;
+        margin: 5px;
+
+    }
+
+    ul#nav li {
+        display: block;
+        flex-direction: column;
+        margin: 5px;
+        width: 95%;
+
+    }
+
+    nav a {
+        text-align: center;
+        width: 95%;
+
+    }
+
+    ul#nav li:hover {
+        display: flex;
+        width: 90%;
+
+    }
+
+    ul#nav li:hover ul {
+        display: block;
+
+        width: 60%;
+
+    }
+
+    ul#nav li li a {
+        width: 100%;
+        font-size: 20px;
+
+
+    }
+
+    nav a:hover {
+        text-align: center;
+
+    }
+
+    ul#nav li a {
+        display: block;
+        padding: 4pt;
+        text-decoration: none;
+        border-radius: 5px;
+        margin: 5px;
+
+    }
+
+    ul#nav li:hover ul {
+        position: absolute;
+
+        background: #ebbfa2;
+        padding: 0;
+        display: block;
+        width: 70%;
+
+        border-radius: 5px;
+
+    }
+
+    ul#nav li li:hover {
+
+        width: 95%;
+
+    }
+}
+

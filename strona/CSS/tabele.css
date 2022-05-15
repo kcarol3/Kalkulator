@@ -1,0 +1,57 @@
+table {
+    background: rgb(221, 221, 128);
+    text-align: center;
+    width: 94%;
+    margin: 2%;
+    border: 1pt darkblue solid; 
+}
+caption {
+    font-size: 120% 
+    
+}
+thead,tfoot {
+    background: #8d3b04;
+    color: white;
+    font-size: 140%;
+    padding: 5pt;
+}
+
+td, th {
+    border: 1pt solid #8d3b04;
+    font-size: large;
+    
+}
+tfoot a {color:rgb(138, 139, 136);}
+
+
+tr:nth-child(even) {
+    background:#d76213;
+    }
+    
+
+    @media screen and (max-width: 800px) 
+    {
+        table {
+            background: rgb(221, 221, 128);
+            text-align: left;
+            width: 50%;
+            margin: 2%;
+            border: 1pt darkblue solid; 
+        }
+        caption {
+            font-size: 140% 
+            
+        }
+        thead,tfoot {
+            background: #8d3b04;
+            color: white;
+            font-size: 170%;
+            
+        }
+        
+        td, th {
+            border: 1pt solid #8d3b04;
+            font-size: large;
+            
+        }
+    }
